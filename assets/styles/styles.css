@@ -190,10 +190,7 @@ body {
 .button-Objetivo {
     width: 800px;
     height: 200px;
-    flex-shrink: 0;
-    border-radius: 5px;
     background: #F8F7F4;
-    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25) inset;
     margin-top: 80px;
     margin-left: 190px;
 }
@@ -201,10 +198,7 @@ body {
 .button-Desenvolvimento {
     width: 800px;
     height: 200px;
-    flex-shrink: 0;
-    border-radius: 5px;
     background: #F8F7F4;
-    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25) inset;
     margin-top: 30px;
     margin-left: 190px;
 }
@@ -212,21 +206,15 @@ body {
 .button-Conclusão {
     width: 800px;
     height: 200px;
-    flex-shrink: 0;
-    border-radius: 5px;
     background: #F8F7F4;
-    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25) inset;
     margin-top: 30px;
     margin-left: 190px;
 }
 
 .button-PlataformasUtilizadas {
     width: 800px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 5px;
+    height: 350px;
     background: #F8F7F4;
-    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25) inset;
     margin-top: 30px;
     margin-left: 190px;
 }
@@ -246,11 +234,6 @@ body {
     margin-left: 10px;
 }
 
-.TextoPlataformasUtilizadas {
-    margin-top: -30px;
-    margin-left: 10px;
-}
-
 .TextoObjetivo2 {
     margin-top: 50px;
     margin-left: 10px;
@@ -266,4 +249,244 @@ body {
     margin-left: 10px;
 }
 
+.TextoPlataformasUtilizadas {
+    margin-top: -154px;
+    margin-left: 50px;
+}
 
+.seção-equipe {
+    display: flex;
+    flex-direction: column;
+    background: #F8F7F4;
+    height:1000px;
+    width: 942px;
+    margin-top: 300px;
+    margin-left: 114px;
+}
+
+.textoEquipe {
+    margin-top: 30px;
+    margin-left: 420px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.equipe-alexandra {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F8F7F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.equipe-fernanda {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F8F7F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: -300px;
+    margin-left:340px;
+}
+
+.equipe-gabriela {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F8F7F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: -300px;
+    margin-left: 670px;
+}
+
+.equipe-jessica {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F8F7F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left:340px;
+}
+
+.equipe-nathalia {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F8F7F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: -300px;
+    margin-left:10px;
+}
+
+.equipe-samuel {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F8F7F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: -300px;
+    margin-left: 670px;
+}
+
+.textoContato {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+
+.avisoContato {
+    width: 800px;
+    height: 280px;
+    background: #FFF;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+.nomeCompleto {
+    width: 408px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #F8F7F4;
+    background: rgba(248, 247, 244, 0.00);
+    margin-top: 120px;
+    margin-left: 380px;
+}
+
+.textoNomeCompleto {
+    color: #F8F7F4;
+    font-family: Athiti;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.e-mail {
+    width: 408px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #F8F7F4;
+    background: rgba(248, 247, 244, 0.00);
+    margin-top: 30px;
+    margin-left: 380px;
+}
+
+.TextoE-mail {
+    color: #F8F7F4;
+    font-family: Athiti;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.numeroContato {
+    width: 408px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #F8F7F4;
+    background: rgba(248, 247, 244, 0.00);
+    margin-top: 30px;
+    margin-left: 380px;
+}
+
+.textoNumeroContato {
+    color: #F8F7F4;
+    font-family: Athiti;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.assunto {
+    width: 408px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #F8F7F4;
+    background: rgba(248, 247, 244, 0.00);
+    margin-top: 35px;
+    margin-left: 380px;
+}
+
+.textoAssunto {
+    color: #F8F7F4;
+    font-family: Athiti;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mensagem {
+    width: 408px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #F8F7F4;
+    background: rgba(248, 247, 244, 0.00);
+    margin-top: 35px;
+    margin-left: 380px;
+}
+
+.textoMensagem {
+    color: #F8F7F4;
+    font-family: Athiti;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.buttonEnviar {
+    width: 317px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: #F8F7F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-top: 80px;
+    margin-left: 430px;
+}
+
+.navBarFinal {
+
+}
