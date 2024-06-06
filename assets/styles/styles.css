@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body {
     margin: 0px;
@@ -83,7 +86,7 @@ body {
     margin-left: -840px;
     color: #000;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
 
 }
@@ -96,6 +99,9 @@ body {
     transition: 0.3s ease;
     border-bottom: 1px;
     border-radius: 1px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .navbar a.active {
@@ -106,7 +112,7 @@ body {
 
 .Texto-Inicial {
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -117,10 +123,10 @@ body {
 
 .Texto-Inicial-2 {
     color: #000;
-    font-family: "Fira Sans";
-    font-size: 25px;
-    font-style: normal;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
     line-height: normal;
     margin-top: 210px;
     margin-left: -280px;
@@ -128,13 +134,12 @@ body {
 
 .Texto-Introdução {
     color: #000;
-    font-family: Athiti;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin-top: 260px;
     margin-left: -235px;
+    font-family: "Athiti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .tituloCarrinho { 
@@ -142,6 +147,9 @@ body {
     font-size: 40px; 
     margin-left: 200px;
     margin-top: -6500px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .retanguloPecas {
@@ -163,22 +171,24 @@ body {
     color: #000000;
     margin-top: -570px;
     margin-left: 810px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .TextoCarrinho {
     color: #FFF;
-    font-family: Athiti;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     margin-top: 340px;
     margin-left: 200px;
+    font-family: "Athiti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Projeto {
     color: #F8F7F4;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
@@ -364,6 +374,9 @@ body {
     background: #FFF;
     margin-top: 50px;
     margin-left: 190px;
+    font-family: "Athiti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nomeCompleto {
@@ -379,10 +392,10 @@ body {
 
 .textoNomeCompleto {
     color: #F8F7F4;
-    font-family: Athiti;
-    font-size: 16px;
-    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
     font-weight: 400;
+    font-style: normal;
     line-height: normal; 
     margin-top: 20px;
     margin-left: 20px;
@@ -401,10 +414,10 @@ body {
 
 .TextoE-mail {
     color: #F8F7F4;
-    font-family: Athiti;
-    font-size: 16px;
-    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
     font-weight: 400;
+    font-style: normal;
     line-height: normal; 
     margin-top: 20px;
     margin-left: 20px;
@@ -423,10 +436,10 @@ body {
 
 .textoNumeroContato {
     color: #F8F7F4;
-    font-family: Athiti;
-    font-size: 16px;
-    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
     font-weight: 400;
+    font-style: normal;
     line-height: normal; 
     margin-top: 20px;
     margin-left: 20px;
@@ -445,10 +458,10 @@ body {
 
 .textoAssunto {
     color: #F8F7F4;
-    font-family: Athiti;
-    font-size: 16px;
-    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
     font-weight: 400;
+    font-style: normal;
     line-height: normal; 
     margin-top: 20px;
     margin-left: 20px;
@@ -467,10 +480,10 @@ body {
 
 .textoMensagem {
     color: #F8F7F4;
-    font-family: Athiti;
-    font-size: 16px;
-    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
     font-weight: 400;
+    font-style: normal;
     line-height: normal; 
     margin-top: 30px;
     margin-left: 20px;
@@ -485,8 +498,7 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     margin-top: 80px;
     margin-left: 430px;
-}
-
-.navBarFinal {
-
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
