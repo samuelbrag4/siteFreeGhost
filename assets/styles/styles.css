@@ -16,8 +16,6 @@
 }
 
 #hero {
-  height: 550px;
-  background-color: #ffefd6;
   width: 100%;
   display: flex;
 }
@@ -25,13 +23,11 @@
 #images-main {
   height: 100%;
   width: 35%;
-  background-color: aqua;
 }
 
 #texts-main {
   height: 100%;
   width: 65%;
-  background-color: #ffaa22;
 }
 
 #logo {
@@ -67,4 +63,38 @@
   font-family: "Fira Sans", sans-serif;
   margin-top: 20px;
   text-align: center;
+  line-height: 2;
+}
+
+#about-project {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  background-color: #414141;
+  justify-content: space-around;
+}
+
+.card {
+  width: 500px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+.card p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 2;
 }
