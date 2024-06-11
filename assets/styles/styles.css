@@ -11,7 +11,7 @@
 
 #top {
   height: 40px;
-  background-color: #414141;
+  background-color: #282828;
   width: 100%;
 }
 
@@ -35,13 +35,17 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 
 #logo-img {
   height: 45px;
   width: 45px;
+}
+
+#texto-logo {
+    margin-left: 5px;
 }
 
 #title {
@@ -71,7 +75,7 @@
   height: 500px;
   width: 100%;
   display: flex;
-  background-color: #414141;
+  background-color: #282828;
   justify-content: space-around;
 }
 
@@ -87,6 +91,8 @@
   align-items: center;
   gap: 20px;
   padding: 20px;
+  text-decoration: none;
+  color: #282828;
 }
 
 .card:hover {
@@ -102,8 +108,13 @@
 }
 
 #img-CarroFreeGhost {
-  height: 370px;
-  width: 370px;
-  margin-left: 300px;
-  margin-top: -40px;
+  height: 400px;
+  width: 400px;
+  margin-left: 180px;
+  margin-top: -45px;
 }
+
+#img-carrinho {
+    height: 200px;
+}
+
