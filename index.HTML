@@ -1,123 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site-Arduino</title>
-    <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css" media="screen" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/styles/styles.css"
+      media="screen"
+    />
+  </head>
 
-</head>
+  <body>
+    <div id="top"></div>
 
-<body>
-    <div class="container">
-        <div class="header"></div>
-        <div class="retangulo-inicial">
-            <div class="circuloinicial1"></div>
-            <div class="circuloinicial2"></div>
-            <div class="circuloinicial3"></div>
-            <img class="imagemCarrinho1" src="assets/images/ftFreeGhost.png">
-            <img class="imagemLogoFreeGhost" src="assets/images/FreeGhost-Logo.png">
-            <nav class="navbar">
-                <a href="#home" class="active">Início</a>
-                <a href="#car">Carrinho</a>
-                <a href="#project">Projeto</a>
-                <a href="#team">Equipe</a>
-                <a href="#contact">Contato</a>
-            </nav>
-            <h2 class="nomeFreeghost"> FreeGhost </h2>
-            <div class="Texto-Inicial">Projeto Carrinho Arduino</div>
-            <div class="Texto-Inicial-2">Equipe Free Ghost</div>
-            <div class="Texto-Introdução">Este trabalho teve dois principais objetivos: primeiro, conectar a <p>
-            </p>linguagem de programação com aplicações do mundo real através do <p>
-            </p>Arduino; segundo, criar um carrinho capaz de operar em ambientes <p>
-            </p> inacessíveis aos humanos, como locais com resíduos perigosos. Antes <p> 
-            </p>de iniciar o projeto, houve um aprendizado em lógica de programação <p>
-            </p> e todos os requisitos foram abordados. Ao final, o resultado foi um <p>
-            </p> carrinho multifuncional, capaz de se mover para frente, para trás, <p>
-            </p> para direita, para esquerda e em alta velocidade.</div>
+    <section id="hero">
+      <div id="images-main">
+        <div id="logo">
+          <img
+            id="logo-img"
+            src="assets/images/FreeGhost-Logo.png"
+            alt="carrinho"
+          />
+          <h2>FreeGhost</h2>
         </div>
-    </div>
-    <div class="pagina2" id="car"> 
-        <h1 class="tituloCarrinho"> Carrinho </h1>
-        <div class="container2"></div>
-        <h1 class="pecas">Peças</h1>
-        <div class="retanguloPecas">
-            <img class="imagemPeca1" scr="assets/images/2.jpeg">
-        </div>
-        <img class="ImagemCarrinho2" scr="">
-        </div>
-    <div class="TextoCarrinho">Eos eaque accusantium et voluptatem mollitia et <p>
-    </p>distinctio voluptatum ex expedita quae est quod <p>
-    </p>nostrum. Ad ipsam optio ut quia molestiae est fuga <p>
-    </p>explicabo qui ullam beatae a sunt dolores. Sit inventore <p>
-    </p>dolorem sit consequatur omnis et aperiam rerum id <p>
-    </p>omnis enim quo odit dolorem et reprehenderit <p>
-    </p>similique?</div>
-    <div class="Projeto" id="project"> Projeto </div>
-    <button class="button-Objetivo">
-        <h2 class="TextoObjetivo"> Objetivo </h2>
-        <div class="TextoObjetivo2"> Desenvolver a habilidade de relacionar a linguagem de programação com o<p>
-        </p>mundo real (através do Arduino) e também desenvolver um carrinho que atue<p>
-        </p>no meio ambiente, em locais onde humanos não podem acessar.</div>
-    </button>
-    <button class="button-Desenvolvimento">
-        <h2 class="TextoDesenvolvimento"> Desenvolvimento </h2>
-        <div class="TextoDesenvolvimento2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed autem tempore <p>
-        </p>tenetur et nihil ex sequi ratione? Eligendi, dolorem ipsa quis quam soluta <p>
-        </p>fugiat laudantium neque, nobis id dolorum sint.</div>
-    </button>
-    <button class="button-Conclusão">
-        <h2 class="TextoConclusão"> Conclusão </h2>
-        <div class="TextoConclusão2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed autem tempore <p>
-        </p>tenetur et nihil ex sequi ratione? Eligendi, dolorem ipsa quis quam soluta <p>
-        </p>fugiat laudantium neque, nobis id dolorum sint.</div></div>
-    </button>
-    <button class="button-PlataformasUtilizadas">
-        <h2 class="TextoPlataformasUtilizadas"> Plataformas Utilizadas </h2>
-    </button>
-    <div class="seção-equipe" id="team">
-        <h2 class="textoEquipe"> Equipe </h2>
-        <div class="equipe-alexandra">
 
-        </div>
-        <div class="equipe-fernanda">
-            
-        </div>
-        <div class="equipe-gabriela">
-            
-        </div>
-        <div class="equipe-jessica">
-            
-        </div>
-        <div class="equipe-nathalia">
-            
-        </div>
-        <div class="equipe-samuel">
-            
-        </div>
-    </div>
-    <div class="secao-contato" id="contact">
-        <h2 class="textoContato"> Contato </h2>
-        <div class="avisoContato"></div>
-        <div class="nomeCompleto">
-            <div class="textoNomeCompleto"> Nome Completo </div>
-        </div>
-        <div class="e-mail">
-            <div class="TextoE-mail"> E-mail </div>
-        </div>
-        <div class="numeroContato">
-            <div class="textoNumeroContato"> Número de contato </div>
-        </div>
-        <div class="assunto">
-            <div class="textoAssunto"> Assunto </div>
-        </div>
-        <div class="mensagem">
-            <div class="textoMensagem"> Mensagem </div>
-        </div>
-        <button class="buttonEnviar"> Enviar </button>
-    </div>
-    <div class="navBarFinal"></div>
-</body>
+        <div id=""></div>
+      </div>
 
+      <div id="texts-main">
+        <h1 id="title">Projeto Carrinho Arduino</h1>
+        <h2 id="subtitle">Equipe FreeGhost</h2>
+        <p id="description">
+          Este trabalho teve dois principais objetivos: primeiro, conectar a
+          <br />
+          linguagem de programação com aplicações do mundo real através do
+          <br />
+          Arduino; segundo, criar um carrinho capaz de operar em ambientes
+          <br />
+          inacessíveis aos humanos, como locais com resíduos perigosos. Antes
+          de<br />
+          iniciar o projeto, houve um aprendizado em lógica de programação e<br />
+          todos os requisitos foram abordados. Ao final, o resultado foi um<br />
+          carrinho multifuncional, capaz de se mover para frente, para trás,<br />
+          para direita, para esquerda e em alta velocidade.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
