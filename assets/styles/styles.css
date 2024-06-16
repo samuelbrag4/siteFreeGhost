@@ -46,6 +46,13 @@
 
 #texto-logo {
     margin-left: 5px;
+    width: 100%; 
+    height: 100%; 
+    color: black; 
+    font-size: 16px; 
+    font-family: "Poppins", sans-serif; 
+    font-weight: 700; 
+    word-wrap: break-word;
 }
 
 #title {
@@ -77,6 +84,38 @@
   display: flex;
   background-color: #282828;
   justify-content: space-around;
+}
+
+#title-carrinho {
+  color: #282828; 
+  font-size: 24px; 
+  font-family: "Poppins", sans-serif; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+
+#title-projeto {
+  color: #282828; 
+  font-size: 24px; 
+  font-family: "Poppins", sans-serif; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+
+#title-equipe {
+  color: #282828; 
+  font-size: 24px; 
+  font-family: "Poppins", sans-serif; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+
+#title-contato {
+  color: #282828; 
+  font-size: 24px; 
+  font-family: "Poppins", sans-serif; 
+  font-weight: 700; 
+  word-wrap: break-word;
 }
 
 .card {
